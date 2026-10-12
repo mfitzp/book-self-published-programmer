@@ -1,0 +1,15 @@
+<<<
+
+[#introduction]
+= Introduction
+
+
+When you start writing {qtname} applications they can feel a bit clumsy. Pythonic code mixed with {cpp} like code leads to a mix of code styles, and ambiguity in how certain things should be accomplished. But, if done right, this mix can be a strength: things that would be difficult to achieve in {cpp} can be easily put together in Python; Python tools and libraries can be seamlessly hooked directly into your Qt GUI. But how do you do it _right_?
+
+For the past 5 years I've been providing code-review and refactoring services for existing projects. The clients have ranged from early stage startups to government research institutes, but despite the very different projects the problems -- and the solutions -- have a lot in common.
+
+In this book I've collected the benefit of that experience, presenting common problems I've seen in the wild and providing what I consider to be the _best practise_ solutions for your applications. The goal is to make it possible for you to apply these solutions to your own apps, eliminating bugs, simplifying development and making the existing code more maintainable.
+
+== Something here
+
+...

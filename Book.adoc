@@ -1,0 +1,28 @@
+= The Self Published Programmer
+Martin Fitzpatrick
+v1.0, 2021-01-01
+:doctype: book
+:creator: {author}
+:producer: Martin Fitzpatrick
+:source-highlighter: rouge
+:rouge-style: pastie
+:listing-caption: Listing
+:pdf-page-size: [7in, 10in]
+:pdf-themesdir: styles
+:pdf-fontsdir: styles
+:pdf-theme: custom
+:icons: font
+:toc: left
+:toclevels: 1
+:sectnums:
+:sectnumlevels: 1
+:chapter-label:
+:experimental: true
+:copyright: CC-BY-SA 3.0
+:imagesdir: images
+:front-cover-image: image:covers/cover.png[]
+:qtver: pyqt5
+:qtname: PyQt
+
+include::./introduction.adoc[]
+

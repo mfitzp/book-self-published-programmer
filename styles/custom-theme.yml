@@ -1,0 +1,37 @@
+extends: default
+font:
+  catalog:
+    merge: false
+    M+ 1p Fallback: GEM_FONTS_DIR/mplus1p-regular-fallback.ttf
+    Noto Emoji: GEM_FONTS_DIR/notoemoji-subset.ttf
+    Montserrat:
+      normal: montserrat-normal.ttf
+      italic: montserrat-italic.ttf
+      bold: montserrat-bold.ttf
+      bold_italic: montserrat-bold_italic.ttf
+    Noto Serif:
+      normal: GEM_FONTS_DIR/notoserif-regular-subset.ttf
+      bold: GEM_FONTS_DIR/notoserif-bold-subset.ttf
+      italic: GEM_FONTS_DIR/notoserif-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/notoserif-bold_italic-subset.ttf
+    # M+ 1mn supports ASCII and the circled numbers used for conums
+    M+ 1mn:
+      normal: GEM_FONTS_DIR/mplus1mn-regular-subset.ttf
+      bold: GEM_FONTS_DIR/mplus1mn-bold-subset.ttf
+      italic: GEM_FONTS_DIR/mplus1mn-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/mplus1mn-bold_italic-subset.ttf
+  fallbacks: [M+ 1p Fallback, Noto Emoji]
+
+base:
+  font_family: Noto Serif
+  line_height_length: 16
+  line_height: $base_line_height_length / $base_font_size
+heading:
+  font_family: Montserrat
+
+title_page:
+  title:
+    font_size: floor($base_font_size * 1.9)
+  subtitle:
+    font_style: italic
+    font_size: floor($base_font_size * 1.5)

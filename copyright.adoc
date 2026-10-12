@@ -1,0 +1,4 @@
+[#copyright]
+= Copyright
+
+This book is copyright (C)2023 Martin Fitzpatrick, all rights reserved.

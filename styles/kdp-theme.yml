@@ -1,0 +1,9 @@
+extends: custom
+base:
+  font_color: 000000
+page:
+  margin: [0.475in, 0.67in, 0.67in, 0.67in]
+  margin_inner: 0.88in
+  margin_outer: 0.475in
+footer:
+  height: $base_line_height_length * 3
